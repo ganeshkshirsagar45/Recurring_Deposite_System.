@@ -1,0 +1,90 @@
+/* HEADER */
+.about-header {
+  background: linear-gradient(135deg, #cfd6f5 , #5982ab);
+  color: rgb(255, 255, 255);
+  padding: 70px 0;
+}
+
+.about-header h1 {
+  font-weight: 700;
+}
+
+.about-header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* INTRO */
+.about-intro {
+  padding: 70px 0;
+}
+
+.about-intro h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about-intro p {
+  color: #555;
+}
+
+.about-img {
+  max-height: 320px;
+}
+
+/* MISSION & VISION */
+.mission-vision {
+  background:linear-gradient(135deg, #cfd6f5 , #5982ab);
+  padding: 70px 0;
+}
+
+.mv-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.mv-card h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* OFFICE */
+.office-section {
+  padding: 70px 0;
+}
+
+.office-card {
+  background: linear-gradient(135deg, #cfd6f5 , #5982ab);
+  padding: 25px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.office-card h5 {
+  font-weight: 600;
+}
+
+/* TRUST */
+.trust-section {
+  background: #212529;
+  color: white;
+  padding: 70px 0;
+}
+
+.trust-card {
+  background: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .about-img {
+    margin-top: 30px;
+  }
+}

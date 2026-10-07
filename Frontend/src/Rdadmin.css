@@ -1,0 +1,102 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.form-card {
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .form-card {
+    padding: 20px;
+  }
+}
+
+
+.dashboard-card {
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  min-height: 120px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card .title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+.dashboard-card h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.dashboard-card small {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.icon {
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+/* Color themes */
+.blue { background: #1e88e5; }
+.green { background: #43a047; }
+.cyan { background: #26c6da; }
+.yellow { background: #fbc02d; color: #000; }
+.dark { background: #263238; }
+.gray { background: #78909c; }
+.red { background: #e53935; }
+.light { background: #eceff1; color: #000; }
+
+
+.dash-card {
+  border-radius: 16px;
+  color: #fff;
+  min-height: 140px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.green-card {
+  background: #43a047;
+}
+
+.small-title {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+.icon-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box svg {
+  font-size: 42px;
+  color: #fff;
+}

@@ -1,0 +1,34 @@
+.admin-login-page {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0f3d79,
+    #725a8c,
+    #174379
+  );
+}
+
+.admin-login-card {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.admin-login-card .form-control {
+  border-radius: 12px;
+}
+
+.admin-login-card .btn-primary {
+  background-color: #3f6fa8;
+  border: none;
+}
+
+.admin-login-card .btn-primary:hover {
+  background-color: #2f5e94;
+}
+
+.admin-login-card a {
+  color: #3f6fa8;
+}
+
+.admin-login-card a:hover {
+  text-decoration: underline;
+}

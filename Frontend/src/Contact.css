@@ -1,0 +1,62 @@
+/* HERO */
+.contact-hero {
+  background: linear-gradient(135deg, #cfd6f5 , #487cb0);
+  color: white;
+  padding: 70px 0;
+}
+
+.contact-hero h1 {
+  font-weight: 700;
+}
+
+.contact-hero p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* INFO */
+.contact-info {
+  padding: 70px 0;
+  background: #f8f9fa;
+}
+
+.info-card {
+  background: rgb(128, 151, 186);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.info-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* FORM */
+.contact-form {
+  padding: 70px 0;
+}
+
+.form-card {
+  background: linear-gradient(135deg, #96a8f7 , #195a9c);
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-card h2 {
+  font-weight: 700;
+}
+
+/* MAP */
+.contact-map iframe {
+  display: block;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .info-card {
+    text-align: center;
+  }
+}
